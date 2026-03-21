@@ -89,4 +89,4 @@ C:\msys64\usr\bin
 ## Referencias
 
 - [[README]]
-- [[02 - Instalacion de SDL3 con pacman]]
+- [[02-Instalacion_de_SDL3_con_pacman]]

@@ -94,4 +94,4 @@ ls /ucrt64/include/SDL3/SDL_mixer.h
 ## Referencias
 
 - [[README]]
-- [[04 - Compilar SDL3_net desde fuente]]
+- [[04-Compilar_SDL3_net_desde_fuente]]

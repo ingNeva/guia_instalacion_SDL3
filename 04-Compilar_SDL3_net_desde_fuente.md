@@ -78,4 +78,4 @@ Cuando todas responden sin error, el entorno de librerias esta completo.
 ## Referencias
 
 - [[README]]
-- [[05 - Configurar VS Code]]
+- [[05-Configurar_VS_Code]]
