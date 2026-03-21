@@ -48,12 +48,12 @@ Los tres deben responder con la ruta sin error.
 
 SDL3_mixer y SDL3_net deben compilarse manualmente:
 
-- [[03-Compilar_SDL3_mixer_desde_fuente]]
-- [[04-Compilar_SDL3_net_desde_fuente]]
+- [03-Compilar SDL3_mixer desde fuente](03-Compilar_SDL3_mixer_desde_fuente)
+- [04-Compilar SDL3_net desde fuente](04-Compilar_SDL3_net_desde_fuente)
 
 ---
 
 ## Referencias
 
-- [[README]]
-- [[01-Instalacion_de_MSYS2_y_GCC]]
+- [README](README)
+- [01-Instalacion de MSYS2 y GCC](01-Instalacion_de_MSYS2_y_GCC)

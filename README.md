@@ -17,15 +17,15 @@ Guía completa de instalación y configuración del entorno de desarrollo C++ co
 
 ## Versiones usadas
 
-| Herramienta | Version |
-|---|---|
-| MSYS2 | Ultima al momento de instalacion |
-| GCC / G++ | 15.2.0 |
-| SDL3 | 3.4.2 |
-| SDL3_image | 3.4.0 |
-| SDL3_ttf | 3.2.2 |
-| SDL3_mixer | 3.3.0 (compilado desde fuente) |
-| SDL3_net | 3.0.0 (compilado desde fuente) |
+| Herramienta | Version                          |
+| ----------- | -------------------------------- |
+| MSYS2       | Ultima al momento de instalacion |
+| GCC / G++   | 15.2.0                           |
+| SDL3        | 3.4.2                            |
+| SDL3_image  | 3.4.0                            |
+| SDL3_ttf    | 3.2.2                            |
+| SDL3_mixer  | 3.3.0 (compilado desde fuente)   |
+| SDL3_net    | 3.0.0 (compilado desde fuente)   |
 
 ---
 

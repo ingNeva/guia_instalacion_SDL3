@@ -146,6 +146,6 @@ SDL3_net.dll
 
 ## Referencias
 
-- [[README]]
-- [[05-Configurar_VS_Code]]
-- [[06-Plantilla_de_proyecto]]
+- [README](README)
+- [05-Configurar VS Code](05-Configurar_VS_Code)
+- [06-Plantilla de proyecto](06-Plantilla_de_proyecto)
