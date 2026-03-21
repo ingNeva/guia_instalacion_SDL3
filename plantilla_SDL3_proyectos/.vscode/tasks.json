@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compilar con SDL3",
+      "type": "shell",
+      "command": "cd $(cygpath -u '${fileDirname}') && g++ -g '${fileBasename}' -o '${fileBasenameNoExtension}.exe' -I /ucrt64/include -L /ucrt64/lib -lSDL3 -lSDL3_image -lSDL3_ttf -lSDL3_mixer -lSDL3_net -mwindows",
+      "options": {
+        "shell": {
+          "executable": "C:\\msys64\\usr\\bin\\bash.exe",
+          "args": ["--login", "-i", "-c"]
+        },
+        "env": {
+          "MSYSTEM": "UCRT64",
+          "CHERE_INVOKING": "1"
+        }
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"],
+      "detail": "Compilar archivo actual con SDL3 completo"
+    }
+  ]
+}
