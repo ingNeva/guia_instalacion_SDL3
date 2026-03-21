@@ -32,7 +32,7 @@ Guía completa de instalación y configuración del entorno de desarrollo C++ co
 
 ## Entorno
 
-- **OS:** Windows 10/11
+- **OS:** Windows 10
 - **Terminal de compilacion:** MSYS2 UCRT64
 - **Editor:** Visual Studio Code
 - **Atajo de compilacion:** `Ctrl + Shift + B`
