@@ -189,13 +189,13 @@
   },
   "active": "156455ba11efe2ed",
   "lastOpenFiles": [
+    "README.md",
     "07 - Errores comunes y soluciones.md",
     "06 - Plantilla de proyecto.md",
     "05 - Configurar VS Code.md",
     "04 - Compilar SDL3_net desde fuente.md",
     "03 - Compilar SDL3_mixer desde fuente.md",
     "02 - Instalacion de SDL3 con pacman.md",
-    "01 - Instalacion de MSYS2 y GCC.md",
-    "00 - Indice.md"
+    "01 - Instalacion de MSYS2 y GCC.md"
   ]
 }

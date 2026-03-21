@@ -125,6 +125,6 @@ Esta version mantiene la ventana abierta hasta que se cierra con la X o se presi
 
 ## Referencias
 
-- [[00 - Indice]]
+- [[README]]
 - [[05 - Configurar VS Code]]
 - [[07 - Errores comunes y soluciones]]

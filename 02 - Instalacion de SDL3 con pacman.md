@@ -55,5 +55,5 @@ SDL3_mixer y SDL3_net deben compilarse manualmente:
 
 ## Referencias
 
-- [[00 - Indice]]
+- [[README]]
 - [[01 - Instalacion de MSYS2 y GCC]]

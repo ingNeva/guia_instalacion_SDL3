@@ -88,5 +88,5 @@ C:\msys64\usr\bin
 
 ## Referencias
 
-- [[00 - Indice]]
+- [[README]]
 - [[02 - Instalacion de SDL3 con pacman]]

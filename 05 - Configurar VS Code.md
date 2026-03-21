@@ -136,5 +136,5 @@ Compila el archivo `.cpp` actualmente abierto en el editor.
 
 ## Referencias
 
-- [[00 - Indice]]
+- [[README]]
 - [[06 - Plantilla de proyecto]]
