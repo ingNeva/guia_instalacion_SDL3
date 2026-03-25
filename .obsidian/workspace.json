@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Instalacion_de_MSYS2_y_GCC.md",
+                "file": "06-Plantilla_de_proyecto.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-Instalacion_de_MSYS2_y_GCC"
+              "title": "06-Plantilla_de_proyecto"
             }
           }
         ]
@@ -193,14 +193,14 @@
   },
   "active": "156455ba11efe2ed",
   "lastOpenFiles": [
-    "02-Instalacion_de_SDL3_con_pacman.md",
-    "03-Compilar_SDL3_mixer_desde_fuente.md",
-    "04-Compilar_SDL3_net_desde_fuente.md",
     "05-Configurar_VS_Code.md",
-    "06-Plantilla_de_proyecto.md",
-    "07-Errores_comunes_y_soluciones.md",
-    "README.md",
+    "03-Compilar_SDL3_mixer_desde_fuente.md",
+    "02-Instalacion_de_SDL3_con_pacman.md",
     "01-Instalacion_de_MSYS2_y_GCC.md",
+    "07-Errores_comunes_y_soluciones.md",
+    "04-Compilar_SDL3_net_desde_fuente.md",
+    "06-Plantilla_de_proyecto.md",
+    "README.md",
     "01-Instalacion.md",
     "01.md"
   ]
