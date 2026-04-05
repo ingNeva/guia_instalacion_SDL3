@@ -1,6 +1,6 @@
 # 10 - Primer Programa con SDL3
 
-← [09_-_Configurar_el_Linker_para_SDL3]() | Siguiente → [[11_-_Compilar_un_Proyecto_con_SDL3]]
+← [09_-_Configurar_el_Linker_para_SDL3](09_-_Configurar_el_Linker_para_SDL3) | Siguiente → [11_-_Compilar_un_Proyecto_con_SDL3](11_-_Compilar_un_Proyecto_con_SDL3)
 
 ---
 

@@ -1,6 +1,6 @@
-# 12 - Extensiones para C y SDL3 en VS Code
+# 14 - Extensiones para C y SDL3 en VS Code
 
-← [[13_-_Instalar_Visual_Studio_Code_en_Debian]] | Siguiente → [[15_-_Configurar_IntelliSense_para_SDL3]]
+← [13_-_Instalar_Visual_Studio_Code_en_Debian](13_-_Instalar_Visual_Studio_Code_en_Debian) | Siguiente → [15_-_Configurar_IntelliSense_para_SDL3](15_-_Configurar_IntelliSense_para_SDL3)
 
 ---
 

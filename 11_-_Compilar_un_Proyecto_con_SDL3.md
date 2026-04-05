@@ -1,6 +1,6 @@
-# 09 - Compilar un Proyecto con SDL3
+# 11 - Compilar un Proyecto con SDL3
 
-← [[10_-_Primer_Programa_con_SDL3]] | Siguiente → [[12_-_Errores_Comunes_y_Soluciones]]
+← [10_-_Primer_Programa_con_SDL3](10_-_Primer_Programa_con_SDL3) | Siguiente → [12_-_Errores_Comunes_y_Soluciones](12_-_Errores_Comunes_y_Soluciones)
 
 ---
 

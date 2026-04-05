@@ -1,6 +1,7 @@
-# 10 - Errores Comunes y Soluciones
+# 12 - Errores Comunes y Soluciones
 
-← [[11_-_Compilar_un_Proyecto_con_SDL3]] | Inicio → [[00 - Índice Principal]]
+←[11_-_Compilar_un_Proyecto_con_SDL3](11_-_Compilar_un_Proyecto_con_SDL3)     | [Instalar Visual Studio Code en Debian](13_-_Instalar_Visual_Studio_Code_en_Debian)
+    							 | Inicio → [00 - Índice Principal](README)
 
 ---
 

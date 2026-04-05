@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_-_Primer_Programa_con_SDL3.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10_-_Primer_Programa_con_SDL3"
+              "title": "README"
             }
           }
         ]
@@ -193,6 +193,14 @@
   },
   "active": "192a2cdc17cb2e75",
   "lastOpenFiles": [
+    "17_-_Proyecto_SDL3_Completo_con_VS_Code_y_CMake.md",
+    "16_-_Compilar_y_Depurar_con_VS_Code.md",
+    "15_-_Configurar_IntelliSense_para_SDL3.md",
+    "14_-_Extensiones_para_C_y_SDL3_en_VS_Code.md",
+    "13_-_Instalar_Visual_Studio_Code_en_Debian.md",
+    "12_-_Errores_Comunes_y_Soluciones.md",
+    "11_-_Compilar_un_Proyecto_con_SDL3.md",
+    "10_-_Primer_Programa_con_SDL3.md",
     "09_-_Configurar_el_Linker_para_SDL3.md",
     "08_-_Compilar_SDL3_desde_Fuente.md",
     "07_-_Dependencias_de_SDL3.md",
@@ -203,14 +211,6 @@
     "02_-_Instalar_el_Compilador_GCC.md",
     "01_-_Introduccion_y_Requisitos.md",
     "04 - Instalar SDL3 en Debian.md",
-    "17_-_Proyecto_SDL3_Completo_con_VS_Code_y_CMake.md",
-    "16_-_Compilar_y_Depurar_con_VS_Code.md",
-    "15_-_Configurar_IntelliSense_para_SDL3.md",
-    "14_-_Extensiones_para_C_y_SDL3_en_VS_Code.md",
-    "13_-_Instalar_Visual_Studio_Code_en_Debian.md",
-    "12_-_Errores_Comunes_y_Soluciones.md",
-    "11_-_Compilar_un_Proyecto_con_SDL3.md",
-    "10_-_Primer_Programa_con_SDL3.md",
     "README.md"
   ]
 }
