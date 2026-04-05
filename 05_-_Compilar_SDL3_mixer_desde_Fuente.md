@@ -54,7 +54,10 @@ Esto configura el proyecto en modo Release (optimizado). CMake buscará automát
 > Could not find a configuration file for package "SDL3"
 > compatible with requested version "X.X.X"
 > ```
-> Significa que la versión de SDL3 instalada es más antigua que la que SDL3_mixer requiere. Solución: actualiza SDL3 primero o compílala también desde fuente.
+> Significa que la versión de SDL3 instalada es más antigua que la que SDL3_mixer requiere. Solución: actualiza SDL3 primero o compílala también desde fuente
+> 
+> [Compilar SDL3 desde la fuente](08_-_Compilar_SDL3_desde_Fuente)
+
 
 ---
 

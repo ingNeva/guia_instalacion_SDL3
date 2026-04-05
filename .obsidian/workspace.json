@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
+                "file": "08_-_Compilar_SDL3_desde_Fuente.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "08_-_Compilar_SDL3_desde_Fuente"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "327ccda6fc5bf1b6",
@@ -168,8 +169,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -187,11 +188,15 @@
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false
+      "bases:Crear nueva base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "192a2cdc17cb2e75",
   "lastOpenFiles": [
+    "05_-_Compilar_SDL3_mixer_desde_Fuente.md",
+    "04_-_Instalar_SDL3_en_Debian.md",
+    "README.md",
     "17_-_Proyecto_SDL3_Completo_con_VS_Code_y_CMake.md",
     "16_-_Compilar_y_Depurar_con_VS_Code.md",
     "15_-_Configurar_IntelliSense_para_SDL3.md",
@@ -204,12 +209,9 @@
     "08_-_Compilar_SDL3_desde_Fuente.md",
     "07_-_Dependencias_de_SDL3.md",
     "06_-_Compilar_SDL3_net_desde_Fuente.md",
-    "05_-_Compilar_SDL3_mixer_desde_Fuente.md",
-    "04_-_Instalar_SDL3_en_Debian.md",
     "03_-_Verificar_la_Instalacion_de_GCC.md",
     "02_-_Instalar_el_Compilador_GCC.md",
     "01_-_Introduccion_y_Requisitos.md",
-    "04 - Instalar SDL3 en Debian.md",
-    "README.md"
+    "04 - Instalar SDL3 en Debian.md"
   ]
 }
