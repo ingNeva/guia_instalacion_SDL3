@@ -33,31 +33,13 @@ Ver lista completa en [[07_-_Dependencias_de_SDL3]].
 
 ## Paso 2 — Descargar el código fuente de SDL3
 
-### Opción A: Descargar una release estable (recomendado)
-
-Ve a la página de releases de SDL3 en GitHub:
-`https://github.com/libsdl-org/SDL/releases`
-
-Descarga el archivo `.tar.gz` de la versión más reciente. A marzo de 2026, la versión estable es **3.2.20**.
-
-```bash
-# Crear directorio de trabajo
-mkdir -p ~/sdl3-build && cd ~/sdl3-build
-
-# Descargar (ajusta el número de versión si hay una más reciente)
-wget https://github.com/libsdl-org/SDL/releases/download/release-3.2.20/SDL3-3.2.20.tar.gz
-
-# Extraer
-tar -xzf SDL3-3.2.20.tar.gz
-cd SDL3-3.2.20
-```
-
-### Opción B: Clonar desde Git (versión de desarrollo)
-
 ```bash
 git clone https://github.com/libsdl-org/SDL.git SDL3-src
 cd SDL3-src
 ```
+
+> [!tip]
+> Esto siempre descarga la última versión disponible del repositorio oficial.
 
 ---
 
@@ -147,10 +129,8 @@ pkg-config --libs sdl3
 
 ```bash
 # Todo en una secuencia
-mkdir -p ~/sdl3-build && cd ~/sdl3-build
-wget https://github.com/libsdl-org/SDL/releases/download/release-3.2.20/SDL3-3.2.20.tar.gz
-tar -xzf SDL3-3.2.20.tar.gz
-cd SDL3-3.2.20
+git clone https://github.com/libsdl-org/SDL.git SDL3-src
+cd SDL3-src
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build -- -j$(nproc)
 sudo cmake --install build --prefix /usr
