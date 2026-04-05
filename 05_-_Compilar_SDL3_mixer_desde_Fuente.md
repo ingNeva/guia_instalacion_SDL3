@@ -1,6 +1,6 @@
 # 05 - Compilar SDL3_mixer desde Fuente
 
-← [[04_-_Instalar_SDL3_en_Debian]] | Siguiente → [[06_-_Compilar_SDL3_net_desde_Fuente]]
+← [04_-_Instalar_SDL3_en_Debian](04_-_Instalar_SDL3_en_Debian) | Siguiente → [06_-_Compilar_SDL3_net_desde_Fuente](06_-_Compilar_SDL3_net_desde_Fuente)
 
 ---
 

@@ -1,6 +1,6 @@
 # 14 - Compilar y Depurar con VS Code
 
-← [[16_-_Configurar_IntelliSense_para_SDL3]] | Siguiente → [[18_-_Proyecto_SDL3_Completo_con_VS_Code_y_CMake]]
+← [[15_-_Configurar_IntelliSense_para_SDL3]] | Siguiente → [[17_-_Proyecto_SDL3_Completo_con_VS_Code_y_CMake]]
 
 ---
 

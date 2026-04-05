@@ -1,6 +1,6 @@
-# 07 - Configurar el Linker para SDL3
+# 09 - Configurar el Linker para SDL3
 
-← [[09_-_Compilar_SDL3_desde_Fuente]] | Siguiente → [[11_-_Primer_Programa_con_SDL3]]
+← [08_-_Compilar_SDL3_desde_Fuente](08_-_Compilar_SDL3_desde_Fuente) | Siguiente → [10_-_Primer_Programa_con_SDL3](10_-_Primer_Programa_con_SDL3)
 
 ---
 
@@ -107,7 +107,7 @@ pkg-config --cflags --libs sdl3
 # -I/usr/local/include/SDL3 -L/usr/local/lib -lSDL3
 ```
 
-Si todo responde correctamente, estás listo para [[11_-_Primer_Programa_con_SDL3]].
+Si todo responde correctamente, estás listo para [[10_-_Primer_Programa_con_SDL3]].
 
 ---
 

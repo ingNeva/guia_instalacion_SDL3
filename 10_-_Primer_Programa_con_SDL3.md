@@ -1,6 +1,6 @@
-# 08 - Primer Programa con SDL3
+# 10 - Primer Programa con SDL3
 
-← [[10_-_Configurar_el_Linker_para_SDL3]] | Siguiente → [[12_-_Compilar_un_Proyecto_con_SDL3]]
+← [09_-_Configurar_el_Linker_para_SDL3]() | Siguiente → [[11_-_Compilar_un_Proyecto_con_SDL3]]
 
 ---
 
@@ -109,13 +109,13 @@ int main(int argc, char *argv[]) {
 
 ## Compilar el programa
 
-Ve a [[12_-_Compilar_un_Proyecto_con_SDL3]] para ver cómo compilar este código con GCC o CMake.
+Ve a [[11_-_Compilar_un_Proyecto_con_SDL3]] para ver cómo compilar este código con GCC o CMake.
 
 ---
 
 > [!tip] Depuración
 > Si la ventana no aparece o aparece en negro, asegúrate de que:
-> 1. SDL3 está correctamente instalada (ver [[10_-_Configurar_el_Linker_para_SDL3]])
+> 1. SDL3 está correctamente instalada (ver [[09_-_Configurar_el_Linker_para_SDL3]])
 > 2. Tu sistema tiene un entorno gráfico funcionando (X11 o Wayland)
 > 3. No hay errores de compilación o enlace
 

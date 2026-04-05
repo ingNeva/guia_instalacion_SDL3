@@ -1,6 +1,6 @@
 # 01 - Introducción y Requisitos
 
-← [[00 - Índice Principal]] | Siguiente → [[02_-_Instalar_el_Compilador_GCC]]
+← [00 - Índice Principal](README) | Siguiente → [02_-_Instalar_el_Compilador_GCC](02_-_Instalar_el_Compilador_GCC)
 
 ---
 
@@ -30,7 +30,7 @@ SDL3 es la nueva generación de SDL2, con API modernizada, mejor soporte para GP
 | Debian 14 | Forky (testing) | GCC 15.x | ✅ `libsdl3-dev` |
 
 > [!warning] Importante
-> En **Debian 12 Bookworm**, SDL3 **no está disponible como paquete apt**. Debes compilarla manualmente desde el código fuente. Ver [[09_-_Compilar_SDL3_desde_Fuente]].
+> En **Debian 12 Bookworm**, SDL3 **no está disponible como paquete apt**. Debes compilarla manualmente desde el código fuente. Ver [08_-_Compilar_SDL3_desde_Fuente](08_-_Compilar_SDL3_desde_Fuente.md).
 
 ---
 

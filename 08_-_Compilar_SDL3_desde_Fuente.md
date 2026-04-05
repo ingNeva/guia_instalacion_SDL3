@@ -1,6 +1,6 @@
-# 06 - Compilar SDL3 desde Fuente
+# 08 - Compilar SDL3 desde Fuente
 
-← [[08_-_Dependencias_de_SDL3]] | Siguiente → [[10_-_Configurar_el_Linker_para_SDL3]]
+← [07_-_Dependencias_de_SDL3](07_-_Dependencias_de_SDL3) | Siguiente → [09_-_Configurar_el_Linker_para_SDL3](09_-_Configurar_el_Linker_para_SDL3)
 
 ---
 
@@ -27,7 +27,7 @@ sudo apt-get install -y \
   libibus-1.0-dev libudev-dev
 ```
 
-Ver lista completa en [[08_-_Dependencias_de_SDL3]].
+Ver lista completa en [[07_-_Dependencias_de_SDL3]].
 
 ---
 
@@ -121,7 +121,7 @@ sudo cmake --install build --prefix /usr/local
 ```
 
 > [!warning] Si usas `/usr/local`
-> Necesitarás configurar el linker para que encuentre SDL3. Ver [[10_-_Configurar_el_Linker_para_SDL3]].
+> Necesitarás configurar el linker para que encuentre SDL3. Ver [[09_-_Configurar_el_Linker_para_SDL3]].
 
 ---
 

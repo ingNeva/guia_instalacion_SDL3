@@ -1,6 +1,6 @@
 # 04 - Instalar SDL3 en Debian
 
-← [[03 - Verificar la Instalación de GCC]] | Siguiente → [[05 - Dependencias de SDL3]]
+← [03 - Verificar la Instalación de GCC](03_-_Verificar_la_Instalacion_de_GCC) | Siguiente → [# 05 - Compilar SDL3_mixer desde Fuente](05_-_Compilar_SDL3_mixer_desde_Fuente)
 
 ---
 

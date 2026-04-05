@@ -1,6 +1,6 @@
 # 03 - Verificar la Instalación de GCC
 
-← [[02_-_Instalar_el_Compilador_GCC]] | Siguiente → [[04 - Instalar SDL3 en Debian]]
+← [02 - Instalar el Compilador GCC](02_-_Instalar_el_Compilador_GCC) | Siguiente → [04 - Instalar SDL3 en Debian](04_-_Instalar_SDL3_en_Debian)
 
 ---
 

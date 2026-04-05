@@ -1,6 +1,6 @@
 # 02 - Instalar el Compilador GCC
 
-← [[01 - Introducción y Requisitos]] | Siguiente → [[03 - Verificar la Instalación de GCC]]
+← [01 - Introducción y Requisitos](01_-_Introduccion_y_Requisitos) | Siguiente → [03 - Verificar la Instalación de GCC](03_-_Verificar_la_Instalacion_de_GCC)
 
 ---
 

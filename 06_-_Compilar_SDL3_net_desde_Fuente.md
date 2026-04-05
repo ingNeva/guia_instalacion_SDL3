@@ -1,6 +1,6 @@
 # 06 - Compilar SDL3_net desde Fuente
 
-← [[05_-_Compilar_SDL3_mixer_desde_Fuente]] | Siguiente → [[07_-_...]]
+← [05_-_Compilar_SDL3_mixer_desde_Fuente](05_-_Compilar_SDL3_mixer_desde_Fuente) | Siguiente → [07 - Dependencias de SDL3](07_-_Dependencias_de_SDL3)
 
 ---
 
