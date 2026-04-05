@@ -55,6 +55,10 @@ Esto configura el proyecto en modo Release (optimizado). CMake buscará automát
 > compatible with requested version "X.X.X"
 > ```
 > Significa que la versión de SDL3 instalada es más antigua que la que SDL3_net requiere. Solución: actualiza SDL3 primero o compílala también desde fuente.
+>  
+> [Compilar SDL3 desde la fuente](08_-_Compilar_SDL3_desde_Fuente)
+
+
 
 ---
 
