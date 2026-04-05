@@ -150,4 +150,39 @@ Para ajustar el comportamiento general de VS Code en el proyecto, crea `.vscode/
 
 ---
 
+## Librerías adicionales de SDL3
+
+Si instalaste SDL3_image, SDL3_ttf, SDL3_mixer o SDL3_net, también hay que agregar sus rutas al `includePath`. Añade las que correspondan según dónde las instalaste:
+
+### Si están instaladas en `/usr` (via apt)
+
+```json
+"includePath": [
+    "${workspaceFolder}/**",
+    "/usr/include/SDL3",
+    "/usr/include/SDL3_image",
+    "/usr/include/SDL3_ttf",
+    "/usr/include/SDL3_mixer",
+    "/usr/include/SDL3_net"
+]
+```
+
+### Si están compiladas desde fuente en `/usr/local`
+
+```json
+"includePath": [
+    "${workspaceFolder}/**",
+    "/usr/local/include/SDL3",
+    "/usr/local/include/SDL3_image",
+    "/usr/local/include/SDL3_ttf",
+    "/usr/local/include/SDL3_mixer",
+    "/usr/local/include/SDL3_net"
+]
+```
+
+> [!tip]
+> Solo agrega las rutas de las librerías que realmente instalaste. No es necesario incluir todas si no las vas a usar.
+
+---
+
 #vscode #intellisense #sdl3 #cppproperties #headers #configuracion
