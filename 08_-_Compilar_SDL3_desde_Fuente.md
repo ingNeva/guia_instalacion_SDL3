@@ -4,6 +4,24 @@
 
 ---
 
+## Antes de empezar — Desinstalar la versión anterior
+
+Si tienes SDL3 instalada desde `apt`, desinstálala primero para evitar conflictos con la versión que vas a compilar:
+
+```bash
+sudo apt remove --purge libsdl3-dev libsdl3-3
+sudo apt autoremove
+```
+
+Verifica que no quede ningún rastro:
+
+```bash
+pkg-config --modversion sdl3
+# Debe devolver un error — si muestra una versión, revisa que no queden archivos huérfanos
+```
+
+---
+
 ## Cuándo usar este método
 
 - Estás en **Debian 12 Bookworm** (sin `libsdl3-dev` en apt)
