@@ -1,6 +1,6 @@
 # 05 - Dependencias de SDL3
 
-← [[04 - Instalar SDL3 en Debian]] | Siguiente → [[06 - Compilar SDL3 desde Fuente]]
+← [[04 - Instalar SDL3 en Debian]] | Siguiente → [[09_-_Compilar_SDL3_desde_Fuente]]
 
 ---
 

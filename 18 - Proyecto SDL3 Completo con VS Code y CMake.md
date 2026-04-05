@@ -1,6 +1,6 @@
 # 15 - Proyecto SDL3 Completo con VS Code y CMake
 
-← [[14 - Compilar y Depurar con VS Code]] | Inicio → [[00 - Índice Principal]]
+← [[17 - Compilar y Depurar con VS Code]] | Inicio → [[00 - Índice Principal]]
 
 ---
 

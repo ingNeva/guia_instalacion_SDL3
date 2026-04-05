@@ -47,6 +47,11 @@ sudo apt install libsdl3-image-dev
 sudo apt install libsdl3-ttf-dev
 ```
 
+Las siguientes librerías **no están disponibles en apt** y deben compilarse desde fuente:
+
+- 🔊 Audio → [[05_-_Compilar_SDL3_mixer_desde_Fuente]]
+- 🌐 Red → [[06_-_Compilar_SDL3_net_desde_Fuente]]
+
 ---
 
 ## Ruta B — Debian 12 Bookworm (compilar desde fuente)

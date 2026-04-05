@@ -1,6 +1,6 @@
 # 12 - Extensiones para C y SDL3 en VS Code
 
-← [[11 - Instalar Visual Studio Code en Debian]] | Siguiente → [[13 - Configurar IntelliSense para SDL3]]
+← [[14 - Instalar Visual Studio Code en Debian]] | Siguiente → [[16 - Configurar IntelliSense para SDL3]]
 
 ---
 
@@ -144,7 +144,7 @@ twxs.cmake
 ---
 
 > [!tip] Siguiente paso
-> Con las extensiones instaladas, ahora hay que decirle a VS Code dónde está SDL3 para que IntelliSense pueda encontrar los headers. Ver [[13 - Configurar IntelliSense para SDL3]].
+> Con las extensiones instaladas, ahora hay que decirle a VS Code dónde está SDL3 para que IntelliSense pueda encontrar los headers. Ver [[16 - Configurar IntelliSense para SDL3]].
 
 ---
 

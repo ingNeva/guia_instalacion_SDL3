@@ -9,15 +9,15 @@
 | Nota | Descripción |
 |------|-------------|
 | [[01 - Introducción y Requisitos]] | Qué necesitas antes de empezar |
-| [[02 - Instalar el Compilador GCC]] | Instalación de GCC y herramientas esenciales |
+| [[02_-_Instalar_el_Compilador_GCC]] | Instalación de GCC y herramientas esenciales |
 | [[03 - Verificar la Instalación de GCC]] | Comprobar que GCC funciona correctamente |
 | [[04 - Instalar SDL3 en Debian]] | Cómo instalar SDL3 según tu versión de Debian |
-| [[05 - Dependencias de SDL3]] | Lista de dependencias necesarias para compilar SDL3 |
-| [[06 - Compilar SDL3 desde Fuente]] | Proceso completo de compilación e instalación manual |
-| [[07 - Configurar el Linker para SDL3]] | Hacer que el sistema encuentre la librería SDL3 |
-| [[08 - Primer Programa con SDL3]] | Hola mundo con SDL3 en C |
-| [[09 - Compilar un Proyecto con SDL3]] | Comandos GCC y uso de CMake con SDL3 |
-| [[10 - Errores Comunes y Soluciones]] | Troubleshooting frecuente |
+| [[08_-_Dependencias_de_SDL3]] | Lista de dependencias necesarias para compilar SDL3 |
+| [[09_-_Compilar_SDL3_desde_Fuente]] | Proceso completo de compilación e instalación manual |
+| [[10 - Configurar el Linker para SDL3]] | Hacer que el sistema encuentre la librería SDL3 |
+| [[11 - Primer Programa con SDL3]] | Hola mundo con SDL3 en C |
+| [[12 - Compilar un Proyecto con SDL3]] | Comandos GCC y uso de CMake con SDL3 |
+| [[13 - Errores Comunes y Soluciones]] | Troubleshooting frecuente |
 
 ---
 
@@ -42,7 +42,7 @@ SDL3 ──►  Librería multimedia
 ---
 
 > [!tip] Consejo
-> Si usas **Debian 12 Bookworm**, ve directamente a [[06 - Compilar SDL3 desde Fuente]].
+> Si usas **Debian 12 Bookworm**, ve directamente a [[09_-_Compilar_SDL3_desde_Fuente]].
 > Si usas **Debian 13 Trixie**, puedes instalar SDL3 con `apt` siguiendo [[04 - Instalar SDL3 en Debian]].
 
 #debian #c #sdl3 #gcc #compilador

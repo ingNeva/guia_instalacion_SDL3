@@ -1,6 +1,6 @@
 # 11 - Instalar Visual Studio Code en Debian
 
-← [[00 - Índice Principal]] | Siguiente → [[12 - Extensiones para C y SDL3 en VS Code]]
+← [[00 - Índice Principal]] | Siguiente → [[15 - Extensiones para C y SDL3 en VS Code]]
 
 ---
 

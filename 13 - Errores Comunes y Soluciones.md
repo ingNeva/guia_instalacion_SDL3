@@ -1,6 +1,6 @@
 # 10 - Errores Comunes y Soluciones
 
-← [[09 - Compilar un Proyecto con SDL3]] | Inicio → [[00 - Índice Principal]]
+← [[12 - Compilar un Proyecto con SDL3]] | Inicio → [[00 - Índice Principal]]
 
 ---
 
