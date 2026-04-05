@@ -14,12 +14,12 @@
 | [04 - Instalar SDL3 en Debian](04_-_Instalar_SDL3_en_Debian)                   | Cómo instalar SDL3 según tu versión de Debian        |
 | [05 - Compilar SDL3_mixer desde Fuente](05_-_Compilar_SDL3_mixer_desde_Fuente) | Instalación manual de SDL3_mixer (audio)             |
 | [06 - Compilar SDL3_net desde Fuente](06_-_Compilar_SDL3_net_desde_Fuente)     | Instalación manual de SDL3_net (red)                 |
-| [08 - Dependencias de SDL3](07_-_Dependencias_de_SDL3.md)                         | Lista de dependencias necesarias para compilar SDL3  |
-| [09 - Compilar SDL3 desde Fuente](08_-_Compilar_SDL3_desde_Fuente.md)             | Proceso completo de compilación e instalación manual |
-| [10 - Configurar el Linker para SDL3](09_-_Configurar_el_Linker_para_SDL3.md)     | Hacer que el sistema encuentre la librería SDL3      |
-| [11 - Primer Programa con SDL3](10_-_Primer_Programa_con_SDL3.md)                 | Hola mundo con SDL3 en C                             |
-| [12 - Compilar un Proyecto con SDL3](11_-_Compilar_un_Proyecto_con_SDL3.md)       | Comandos GCC y uso de CMake con SDL3                 |
-| [13 - Errores Comunes y Soluciones](12_-_Errores_Comunes_y_Soluciones.md)         | Troubleshooting frecuente                            |
+| [08 - Dependencias de SDL3](07_-_Dependencias_de_SDL3.md)                      | Lista de dependencias necesarias para compilar SDL3  |
+| [09 - Compilar SDL3 desde Fuente](08_-_Compilar_SDL3_desde_Fuente.md)          | Proceso completo de compilación e instalación manual |
+| [10 - Configurar el Linker para SDL3](09_-_Configurar_el_Linker_para_SDL3.md)  | Hacer que el sistema encuentre la librería SDL3      |
+| [11 - Primer Programa con SDL3](10_-_Primer_Programa_con_SDL3.md)              | Hola mundo con SDL3 en C                             |
+| [12 - Compilar un Proyecto con SDL3](11_-_Compilar_un_Proyecto_con_SDL3.md)    | Comandos GCC y uso de CMake con SDL3                 |
+| [13 - Errores Comunes y Soluciones](12_-_Errores_Comunes_y_Soluciones.md)      | Troubleshooting frecuente                            |
 
 ---
 
