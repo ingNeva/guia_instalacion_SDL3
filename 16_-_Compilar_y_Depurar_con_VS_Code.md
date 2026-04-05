@@ -194,6 +194,96 @@ VS Code compilará automáticamente (gracias a `preLaunchTask`) y lanzará el de
 
 ---
 
+## Usar CMake en lugar de GCC directo
+
+Si tu proyecto usa `CMakeLists.txt`, reemplaza el `tasks.json` anterior por este:
+
+### `tasks.json` con CMake + Ninja
+
+```json
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "CMake Configure",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "-S", "${workspaceFolder}",
+                "-B", "${workspaceFolder}/build",
+                "-G", "Ninja",
+                "-DCMAKE_BUILD_TYPE=Debug"
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "CMake Build",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "--build", "${workspaceFolder}/build"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "dependsOn": "CMake Configure",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": "$gcc"
+        }
+    ]
+}
+```
+
+> [!tip]
+> La tarea `CMake Configure` solo necesita ejecutarse una vez, o cuando cambies el `CMakeLists.txt`. Para compilaciones normales, `Ctrl+Shift+B` ejecuta directamente `CMake Build`.
+
+### `launch.json` apuntando al ejecutable generado por CMake
+
+Ajusta el campo `program` para que apunte a donde CMake deja el ejecutable:
+
+```json
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug con CMake (GDB)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/mi_juego",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "setupCommands": [
+                {
+                    "description": "Activar pretty-printing en GDB",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "CMake Build"
+        }
+    ]
+}
+```
+
+> [!warning]
+> El campo `program` debe coincidir con el nombre del ejecutable definido en `project()` de tu `CMakeLists.txt`. Si tu proyecto se llama `MiJuego`, el ejecutable será `${workspaceFolder}/build/MiJuego`.
+
+---
+
 ## Ejecutar sin depurar
 
 Si solo quieres ejecutar el programa sin el depurador:
