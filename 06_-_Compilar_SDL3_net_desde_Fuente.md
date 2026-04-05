@@ -1,6 +1,6 @@
 # 06 - Compilar SDL3_net desde Fuente
 
-← [05_-_Compilar_SDL3_mixer_desde_Fuente](05_-_Compilar_SDL3_mixer_desde_Fuente) | Siguiente → [07 - Dependencias de SDL3](07_-_Dependencias_de_SDL3)
+← [[05_-_Compilar_SDL3_mixer_desde_Fuente]] | Siguiente → [[07_-_...]]
 
 ---
 
@@ -55,10 +55,6 @@ Esto configura el proyecto en modo Release (optimizado). CMake buscará automát
 > compatible with requested version "X.X.X"
 > ```
 > Significa que la versión de SDL3 instalada es más antigua que la que SDL3_net requiere. Solución: actualiza SDL3 primero o compílala también desde fuente.
->  
-> [Compilar SDL3 desde la fuente](08_-_Compilar_SDL3_desde_Fuente)
-
-
 
 ---
 
@@ -97,7 +93,7 @@ Sin este paso, los programas que intenten usar SDL3_net no la encontrarán en ti
 ## 6. Verificar la instalación
 
 ```bash
-pkg-config --modversion SDL3_net
+pkg-config --modversion sdl3-net
 # Debería mostrar algo como: 3.x.x
 ```
 

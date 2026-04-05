@@ -1,6 +1,6 @@
 # 05 - Compilar SDL3_mixer desde Fuente
 
-← [04_-_Instalar_SDL3_en_Debian](04_-_Instalar_SDL3_en_Debian) | Siguiente → [06_-_Compilar_SDL3_net_desde_Fuente](06_-_Compilar_SDL3_net_desde_Fuente)
+← [[04_-_Instalar_SDL3_en_Debian]] | Siguiente → [[06_-_Compilar_SDL3_net_desde_Fuente]]
 
 ---
 
@@ -54,10 +54,22 @@ Esto configura el proyecto en modo Release (optimizado). CMake buscará automát
 > Could not find a configuration file for package "SDL3"
 > compatible with requested version "X.X.X"
 > ```
-> Significa que la versión de SDL3 instalada es más antigua que la que SDL3_mixer requiere. Solución: actualiza SDL3 primero o compílala también desde fuente
-> 
-> [Compilar SDL3 desde la fuente](08_-_Compilar_SDL3_desde_Fuente)
-
+> Significa que la versión de SDL3 instalada (por ejemplo `3.2.10` de apt) es más antigua que la que SDL3_mixer requiere.
+>
+> **Solución:** debes compilar SDL3 desde fuente para obtener una versión más reciente. El proceso es el mismo que para SDL3_mixer:
+>
+> ```bash
+> git clone https://github.com/libsdl-org/SDL.git
+> cd SDL
+> cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+> cmake --build build
+> sudo cmake --install build
+> sudo ldconfig
+> ```
+>
+> Después de esto, vuelve al paso 2 de esta guía y repite el proceso para SDL3_mixer.
+>
+> → Si quieres más detalles sobre este proceso, consulta [09 - Compilar SDL3 desde Fuente](09_-_Compilar_SDL3_desde_Fuente).
 
 ---
 
@@ -96,7 +108,7 @@ Sin este paso, los programas que intenten usar SDL3_mixer no la encontrarán en 
 ## 6. Verificar la instalación
 
 ```bash
-pkg-config --modversion SDL3_mixer
+pkg-config --modversion sdl3-mixer
 # Debería mostrar algo como: 3.x.x
 ```
 
