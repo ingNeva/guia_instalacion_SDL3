@@ -1,6 +1,6 @@
 # 13 - Configurar IntelliSense para SDL3
 
-← [[15 - Extensiones para C y SDL3 en VS Code]] | Siguiente → [[17 - Compilar y Depurar con VS Code]]
+← [[15_-_Extensiones_para_C_y_SDL3_en_VS_Code]] | Siguiente → [[17_-_Compilar_y_Depurar_con_VS_Code]]
 
 ---
 

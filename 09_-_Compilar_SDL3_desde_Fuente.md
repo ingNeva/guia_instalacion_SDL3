@@ -1,6 +1,6 @@
 # 06 - Compilar SDL3 desde Fuente
 
-← [[08_-_Dependencias_de_SDL3]] | Siguiente → [[10 - Configurar el Linker para SDL3]]
+← [[08_-_Dependencias_de_SDL3]] | Siguiente → [[10_-_Configurar_el_Linker_para_SDL3]]
 
 ---
 
@@ -121,7 +121,7 @@ sudo cmake --install build --prefix /usr/local
 ```
 
 > [!warning] Si usas `/usr/local`
-> Necesitarás configurar el linker para que encuentre SDL3. Ver [[10 - Configurar el Linker para SDL3]].
+> Necesitarás configurar el linker para que encuentre SDL3. Ver [[10_-_Configurar_el_Linker_para_SDL3]].
 
 ---
 

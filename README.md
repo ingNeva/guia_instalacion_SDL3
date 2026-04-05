@@ -14,10 +14,10 @@
 | [[04 - Instalar SDL3 en Debian]] | Cómo instalar SDL3 según tu versión de Debian |
 | [[08_-_Dependencias_de_SDL3]] | Lista de dependencias necesarias para compilar SDL3 |
 | [[09_-_Compilar_SDL3_desde_Fuente]] | Proceso completo de compilación e instalación manual |
-| [[10 - Configurar el Linker para SDL3]] | Hacer que el sistema encuentre la librería SDL3 |
-| [[11 - Primer Programa con SDL3]] | Hola mundo con SDL3 en C |
-| [[12 - Compilar un Proyecto con SDL3]] | Comandos GCC y uso de CMake con SDL3 |
-| [[13 - Errores Comunes y Soluciones]] | Troubleshooting frecuente |
+| [[10_-_Configurar_el_Linker_para_SDL3]] | Hacer que el sistema encuentre la librería SDL3 |
+| [[11_-_Primer_Programa_con_SDL3]] | Hola mundo con SDL3 en C |
+| [[12_-_Compilar_un_Proyecto_con_SDL3]] | Comandos GCC y uso de CMake con SDL3 |
+| [[13_-_Errores_Comunes_y_Soluciones]] | Troubleshooting frecuente |
 
 ---
 
